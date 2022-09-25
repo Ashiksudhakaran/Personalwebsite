@@ -67,7 +67,7 @@ function validatemessage(){
     return true;
 }
 function validateform(){
-    if(!validatename() || !validatephone() || !validateemail() || !validatemessage(){
+    if(!validatename() || !validatephone() || !validateemail() || !validatemessage()){
         submitError.style.display='block';
         submitError.innerHTML = 'please fix error to submit';
         setTimeout(function(){submitError.style.display = 'none';},3000)
